@@ -2,10 +2,6 @@ name: deploy
 
 on:
   push:
-    branches:
-      - feature-blue-green
-    paths-ignore:
-      - '**.md'
 
 jobs:
   build:
